@@ -1,0 +1,4 @@
+Total = @@Number_of_test_cases@@
+Passed = @@Number_of_test_cases_passed@@"
+Skipped = @@Number_of_test_cases_skipped@@
+Failed = @@Number_of_test_cases_failed@@
