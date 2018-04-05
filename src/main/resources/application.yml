@@ -16,6 +16,7 @@ aspire:
      protocol: http
      logLevel: FULL
      projectId: 12 
+     summary-report-template:
       
   
       
@@ -36,7 +37,7 @@ aspire:
           #- stories/03-Footer/TC-0**.story
           #- stories/04-Google Verification/TC-**.story
           #- stories/**/TC-001-PublicationsPage(AIP Advances)**.story
-          - stories/**/TC-002-Google-Verification-AIP.story
+          #- stories/**/TC-002-Google-Verification-AIP.story
           - stories/**/TC-001-Google-Verification-Scitation.story
           #- stories/**/TC-012-VerifySIGN UP FOR ALERTS.story
           #- stories/07-Publishers/TC-**.story
