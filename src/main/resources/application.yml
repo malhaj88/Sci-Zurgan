@@ -39,7 +39,7 @@ aspire:
           #- stories/**/TC-001-PublicationsPage(AIP Advances)**.story
           - stories/**/TC-002-Google-Verification-AIP.story
           - stories/**/TC-001-Google-Verification-Scitation.story
-          #- stories/**/TC-012-VerifySIGN UP FOR ALERTS.story
+          - stories/**/TC-003-Google-Verification-AAPT.story
           #- stories/07-Publishers/TC-**.story
           #- stories/08-Registration/TC-**.story
           #- stories/09-Search/TC-0001**.story
