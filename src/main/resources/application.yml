@@ -40,8 +40,8 @@ aspire:
           - stories/**/TC-002-Google-Verification-AIP.story
           - stories/**/TC-001-Google-Verification-Scitation.story
           - stories/**/TC-003-Google-Verification-AAPT.story
-          #- stories/07-Publishers/TC-**.story
-          #- stories/08-Registration/TC-**.story
+          - stories/**/TC-004-Google-Verification-ASA.story
+          - stories/**/TC-005-Google-Verification-SOR.story
           #- stories/09-Search/TC-0001**.story
           
           
