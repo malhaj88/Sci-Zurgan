@@ -16,7 +16,7 @@ aspire:
      protocol: http
      logLevel: FULL
      projectId: 12 
-     summary-report-template:
+     summary-report-template: ./Summary_Report_Template.txt
       
   
       
