@@ -2,3 +2,4 @@ Total = 1
 Passed = 1
 Skipped = 0
 Failed = 0
+ShareLink = http://82.212.71.230:5080/report/36665?sharedToken=lRFc9HfKO5aHNIEiEHWmOCwXZ8NcxAAa1AvwYewdp9cMpbGHzyAvdYRnDVz9IMp5PstOutCPHm8h0NKmHVlK1O5826uxGJQDXGhu

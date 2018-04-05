@@ -3,7 +3,7 @@ aspire:
      scope: 
    
   console:
-    enabled: true 
+    enabled: false 
   
   
   dashboard:
