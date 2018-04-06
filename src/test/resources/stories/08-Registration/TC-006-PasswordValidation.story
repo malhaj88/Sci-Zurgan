@@ -10,4 +10,5 @@ And [1111-1000] the_Register_Btn should be clickable, Within 20 seconds
 And [1100-0300] User click on it
 And [1111-1080] registeration_Password_Textbox should be displayed, Within 20 seconds
 And [1100-1340] User fills registeration_Password_Textbox with asdf
-And [1111-1080] password_Tooshort should be displayed, Within 20 seconds
+Then [1111-1080] password_Tooshort should be displayed, Within 20 seconds
+And [1000-9140] Close the browser

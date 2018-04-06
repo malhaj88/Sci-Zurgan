@@ -1,6 +1,6 @@
 Meta:
 @production
-Scenario: TC-006- Physics Today- verify the function of �Physicstoday title link
+Scenario: TC-006- Physics Today- verify the function of Physicstoday title link
 
 Given [1000-9000] User opens home page
 And [1000-3010] Set window size to be 1456 Height and 876 Width
