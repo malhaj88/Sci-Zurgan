@@ -34,14 +34,10 @@ aspire:
         include: 
           #- stories/01-login/TC-001**.story
           #- stories/02-Profile/TC-001**.story
-          #- stories/03-Footer/TC-0**.story
+          - stories/**/**.story
           #- stories/04-Google Verification/TC-**.story
           #- stories/**/TC-001-PublicationsPage(AIP Advances)**.story
-          - stories/**/TC-002-Google-Verification-AIP.story
-          - stories/**/TC-001-Google-Verification-Scitation.story
-          - stories/**/TC-003-Google-Verification-AAPT.story
-          - stories/**/TC-004-Google-Verification-ASA.story
-          - stories/**/TC-005-Google-Verification-SOR.story
+          #- stories/**/TC-006-PasswordValidation3.story
           #- stories/09-Search/TC-0001**.story
           
           

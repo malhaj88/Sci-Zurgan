@@ -1,6 +1,7 @@
 package com.aspire.sci.pages;
 
 import com.aspire.automation.web.util.AspireWebElement;
+import com.aspire.automation.web.util.AspireWebElements;
 import com.aspire.automation.web.util.annotation.CssSelector;
 import com.aspire.automation.web.util.annotation.Page;
 
@@ -23,8 +24,11 @@ public interface Publications {
 	public AspireWebElement aip_Advances();
 
 	@CssSelector("${pages.publications.publishers_Logo}")
-	public AspireWebElement publishers_Logo();
-
+	public AspireWebElements publishers_Logo();
+	
+	@CssSelector("${pages.publications.publishers_Logo_Link}")
+	public AspireWebElement publishers_Logo_Link();
+	
 	@CssSelector("${pages.publications.publishers_Home}")
 	public AspireWebElement publishers_Home();
 
@@ -297,7 +301,7 @@ public interface Publications {
 	public AspireWebElement publishers_Publications();
 
 	@CssSelector("${pages.publications.about_Publishers}")
-	public AspireWebElement about_Publishers();
+	public AspireWebElements about_Publishers();
 	
 
 	

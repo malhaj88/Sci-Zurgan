@@ -51,8 +51,8 @@ public interface Registration {
 	@CssSelector("${pages.register.password_Weak}")
 	public AspireWebElement password_Weak();
 
-	@CssSelector("${pages.register.password_Medium}")
-	public AspireWebElement password_Medium();
+	@CssSelector("${pages.register.password_Very_Strong}")
+	public AspireWebElement password_Very_Strong();
 
 	@CssSelector("${pages.register.password_Strong}")
 	public AspireWebElement password_Strong();

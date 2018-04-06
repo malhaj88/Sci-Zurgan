@@ -1,5 +1,5 @@
 Meta:
-@skip
+@production
 
 Scenario: TC-003-Google Verification- Google Site Verification for AAPT
 
