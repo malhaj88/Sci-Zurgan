@@ -4,7 +4,7 @@ Meta:
 Scenario: TC-004-Login - Verify Sign in - Invalid Scenario
 
 Given [1000-9000] User opens Login page
-And [1000-3000] User maximize browser window
+And [1000-3010] Set window size to be 1456 Height and 876 Width
 When [1100-1340] User fills User Name with `InValid_User_Name`
 And [1100-1340] User fills Password with `InValid_Password`
 And [1111-1000] Login Button should be clickable, Within 20 seconds

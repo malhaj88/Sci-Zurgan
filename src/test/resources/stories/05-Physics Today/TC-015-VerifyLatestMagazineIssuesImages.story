@@ -3,7 +3,7 @@ Meta:
 Scenario: TC-015- Physics Today- verify Latest Magazine Issues images
 
 Given [1000-9000] User opens home page
-And [1000-3000] User maximize browser window
+And [1000-3010] Set window size to be 1456 Height and 876 Width
 When [1111-1000] aip_Publisher should be clickable, Within 20 seconds
 And [1100-0300] User click on it
 And [1111-1000] physics_Today_Journal should be clickable, Within 20 seconds

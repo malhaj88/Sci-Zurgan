@@ -4,7 +4,7 @@ Meta:
 Scenario: TC-008-Publications  - Verify that the shopping cart info is correct
 
 Given [1000-9000] User opens home page
-And [1000-3000] User maximize browser window
+And [1000-3010] Set window size to be 1456 Height and 876 Width
 When [1100-1340] User fills search_Text with `searchvalue`
 And [1111-1000] SearchIcon should be clickable, Within 20 seconds
 And [1100-0300] User click on it
