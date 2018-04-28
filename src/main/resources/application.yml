@@ -34,7 +34,7 @@ aspire:
         include: 
           #- stories/01-login/TC-001**.story
           #- stories/02-Profile/TC-001**.story
-          - stories/**/**.story
+          - stories/**/TC-008-shoppingCartInfoIsCorrect.story
           #- stories/04-Google Verification/TC-**.story
           #- stories/**/TC-001-PublicationsPage(AIP Advances)**.story
           #- stories/**/TC-006-PasswordValidation3.story
